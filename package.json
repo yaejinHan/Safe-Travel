@@ -1,0 +1,33 @@
+{
+  "name": "yaejinhan-final-project",
+  "version": "1.0.0",
+  "description": "Now in the age of coronavirus, it is crucial to keep social distancing to avoid unnecessary contacts. \r The application 'Safe Travel!' grabs data from nyc.mta and displays in a graph how many people used the nyc subway\r around which time. \r Using this information, users can decide if they want to schedule a private ride or take a subway ride.\r Without having to go to Uber or other ride apps to reserve a ride, users can see the last week's subway data,\r and either add the subway schedule to their page or reserve a ride and add that to their page.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-034-fall-2020/yaejinHan-final-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-034-fall-2020/yaejinHan-final-project/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-034-fall-2020/yaejinHan-final-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.10.12",
+    "nodemailer": "^6.4.16",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1",
+    "randomstring": "^1.1.5"
+  }
+}

@@ -1,0 +1,16 @@
+<br></br><br></br>
+<h3 class = "page-message">You have total of {{total}} rides reserved!</h3>
+{{#each data as |ride|}}
+<ul>
+    <li>{{ride.date}} - {{ride.time}}, {{ride.location}} </li>
+
+</ul>
+{{/each}}
+
+<div class = "navbar-bottom">
+<a class = "first-menu" href = "/users/reserved-rides">View reserved rides</a>
+<a href = "/saved-subway-table">View saved timetables</a>
+<a href = "/users/reserve-a-ride">Reserve rides</a>
+<a href = "/users/filter-ride-by-date">Filter rides</a>
+<a href = "/users/logout">Logout</a>
+</div>

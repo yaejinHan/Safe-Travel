@@ -1,0 +1,226 @@
+body {
+  font-family: "Lucida Console", Courier, monospace;
+  background-color:#ECE9EB !important;
+  margin:0;
+}
+
+.page-greet {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: center;
+}
+
+.page-message {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Lucida Console", Courier, monospace;
+  margin-left: 110px;
+}
+
+
+.greet-user {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 108px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.page-greet-minus {
+  margin-top: 40px;
+  margin-bottom: -20px;
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: center;
+}
+
+
+
+.form-element {
+  margin-top: 5px;
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-text {
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+
+
+
+.form-element-filter {
+  margin-top: 5px;
+  position: relative;
+  font-family: "Lucida Console", Courier, monospace;
+  display: block;
+  
+}
+
+.form-text-filter {
+  position: relative;
+  margin-left: 115px;
+  margin-right: 10px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+
+.actionBtn-filter {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.actionBtn {
+  margin-top: 10px;
+  margin-left: 600px;
+}
+
+.siteName {
+  margin-right: 350px;
+  text-align: left;
+  margin-left: 75px;
+  color: white;
+}
+
+
+
+/* Navbar container */
+.navbar {
+  position: fixed !important;
+  right: 0 !important;
+  left: 0 !important;
+  top: 0;
+  background-color: #333;
+  font-family: "Lucida Console", Courier, monospace;
+  padding-bottom: -10px;
+  margin: 0;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navbar a:hover {
+  color: #D7D1D6 !important;
+  text-decoration: none !important;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  overflow-y: auto;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  height: 500%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  color: #ABA5AA !important;
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ul {
+  color: black;
+}
+
+
+li {
+  list-style-type: square;
+  margin-left: 110px;
+}
+
+/* taxi picture on reserve-a-ride page */
+.taxi {
+	  position: relative;
+    margin-top: 40px;
+    height: 400px;
+	  width: 415px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* subway map on main page */
+.map {
+  width: 100%;
+  height: 90%;
+  height: auto;
+}
+
+
+
+/* bottom navbars */
+.navbar-bottom {
+  position: fixed !important;
+  right: 0 !important;
+  left: 0 !important;
+  bottom: 0;
+  background-color: #333;
+  font-family: "Lucida Console", Courier, monospace;
+  padding-bottom: -10px;
+  margin: 0;
+}
+
+/* Links inside the navbar */
+.navbar-bottom a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navbar-bottom a:hover {
+  color: #D7D1D6 !important;
+  text-decoration: none !important;
+}
+
+
+.first-menu {
+  margin-left: 250px;
+}

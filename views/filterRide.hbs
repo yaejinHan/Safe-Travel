@@ -1,0 +1,23 @@
+<br></br><br></br>
+<h4 class = "page-message">Filter Your Ride By Date!</h4>
+<form method = "GET" action = "">
+<h8 class = "form-text-filter">Date</h8> <input class = "form-element=filter" type = "text" name = "date">
+<input class = "actionBtn-filter" type = "submit" value = "Filter">
+</form>
+
+<h5 class = "page-message">You have total of {{total}} rides filtered!</h5>
+{{#each data as |ride|}}
+<ul>
+    <li>{{ride.date}} - {{ride.time}}, {{ride.location}} </li>
+
+</ul>
+{{/each}}
+
+
+<div class = "navbar-bottom">
+<a class = "first-menu" href = "/users/reserved-rides">View reserved rides</a>
+<a href = "/saved-subway-table">View saved timetables</a>
+<a href = "/users/reserve-a-ride">Reserve rides</a>
+<a href = "/users/filter-ride-by-date">Filter rides</a>
+<a href = "/users/logout">Logout</a>
+</div>
